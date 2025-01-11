@@ -1,0 +1,102 @@
+/* General Styling */
+body {
+    background-color: #121212; /* Dark background */
+    color: #E0E0E0; /* Light text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1E1E1E; /* Slightly lighter dark for header */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #333333;
+}
+
+h1 {
+    color: #FFD700; /* Golden text for the title */
+    margin: 0;
+}
+
+button {
+    background-color: #333333; /* Dark button */
+    color: #FFD700; /* Golden text */
+    border: 1px solid #555555;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444444; /* Lighter dark for hover */
+}
+
+main {
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 20px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    background-color: #1E1E1E; /* Dark background for sections */
+    padding: 15px;
+}
+
+.category h2 {
+    color: #FFA500; /* Orange for category headers */
+    margin: 0 0 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    accent-color: #FFD700; /* Golden checkbox */
+    width: 18px;
+    height: 18px;
+}
+
+label {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+a {
+    color: #1E90FF; /* Bright blue for links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Adjusting the Reset Button */
+#reset-button {
+    margin-top: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .category h2 {
+        font-size: 18px;
+    }
+}
