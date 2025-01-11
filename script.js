@@ -285,7 +285,7 @@ const locations = [
     { category: "TotG (Tomb of Giants)", name: "Large Divine Ember" },
     { category: "TotG (Tomb of Giants)", name: "White Titanite Chunk - Drop from Halberd-wielding Black Knight" },
     { category: "TotG (Tomb of Giants)", name: "Lord Soul (Nito)" },
-    { category: "KoFF (Kiln of the First Flame", name: "Soul of Gwyn, Lord of Cinder" }
+    { category: "KoFF (Kiln of the First Flame)", name: "Soul of Gwyn, Lord of Cinder" }
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
